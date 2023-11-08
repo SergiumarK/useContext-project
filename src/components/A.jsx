@@ -7,7 +7,7 @@ const A = () => {
     return (
         <>
             {items.map((item) => (
-                <p>{item.text}</p>
+                <p key={item.id}>{item.text}</p>
             ))}
         </>
     )

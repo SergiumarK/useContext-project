@@ -26,7 +26,7 @@ const Global = () => {
 
     return (
         <>
-            <Ctx.Provider value={{ items: items, setItems: setItems }}>
+            <Ctx.Provider value={{ items: items, addItem: addItem }}>
                 <A />
                 <B />
                 <C />
