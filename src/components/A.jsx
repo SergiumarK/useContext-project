@@ -1,9 +1,9 @@
-import B from "./B"
 
-const A = ({myText}) => {
+
+const A = () => {
     return (
         <>
-            <B myText={myText} />
+            
         </>
     )
 }

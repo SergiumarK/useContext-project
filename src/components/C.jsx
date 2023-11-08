@@ -1,7 +1,12 @@
-const C = ({myText}) => {
+import { useContext } from "react"
+import { Ctx } from "../Global"
+
+const C = () => {
+    const myValue = useContext(Ctx)
+
     return (
         <>
-            <h1>{myText}</h1>
+            <h1>{myValue}</h1>
         </>
     )
 }

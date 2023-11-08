@@ -8,7 +8,16 @@ export const Ctx = createContext()
 
 const Global = () => {
     
-    return <></>
+    return (
+        <>
+            <Ctx.Provider value={"Hello World"}>
+                <A />
+                <B />
+                <C />
+            </Ctx.Provider>
+        </>
+    )
+    
 }
 
 export default Global
